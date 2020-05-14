@@ -1,6 +1,6 @@
 body
 {
-	background-color: #e6e6e6;
+	background-color: #f2f2f2;
 }
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
@@ -29,7 +29,7 @@ a:hover
   font-style: normal;
 }
 .container {
-  max-width: 960px;
+  max-width: 970px;
   margin: 40px auto;
   padding: 5px;
   background: white;
@@ -56,7 +56,7 @@ header
 {
 	margin-left: auto;
 	padding-bottom: 0px;
-	font-size: 40px;
+	font-size: 4vw;
 	color: #2a7dbb;
 	font-family: 'Raleway'
 }
@@ -64,25 +64,25 @@ header
 {
 	font-family: 'Verdana';
 	margin-left: auto;
-	font-size: 25px;
+	font-size: 2.5vw;
 	color: grey;
 }
 .sectionside
 {
-	font-size: 20px;
+	font-size: 2vw;
 	font-family: 'Raleway'
 	color:solid black;
 }
 .sectiondetails
 {
 	color:grey;	
-	font-size: 15px;
+	font-size: 1.2vw;
 	font-family: 'Raleway'	
 }
 .sectionsidedetails
 {
 	color:solid black;	
-	font-size: 15px;
+	font-size: 1.5vw;
 	font-family: 'Raleway'	
 	font-weight: bold;
 	font-variant:
@@ -92,7 +92,6 @@ section {
   grid-template-columns: 1fr 4fr;
   grid-gap: 20px;
   padding: 24px 0;
-  border-bottom: 1px solid lightgrey;
 }
 section:after 
 {
@@ -103,15 +102,16 @@ section:after
 nav 
 {
   float: left;
-  width: 33%;
-  border-right: 0.5px solid black;
-  
+  width: 34%;
   padding: 20px;
+  
 }
 article {
   float: left;
   padding: 20px;
-  width: 67%;
+  width: 66%;
+  
+  background-color: #fafafa
 }
 .newline
 {
@@ -123,7 +123,7 @@ article {
 }
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 3vw;
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -149,4 +149,12 @@ article {
 .fa-instagram {
   background: red;
   color: white;
+}
+.hussain
+{
+  color:solid black;  
+  font-size: 1.5vw;
+  font-family: 'Raleway'  
+  font-variant:
+  font-style: normal;
 }
