@@ -118,39 +118,6 @@ article {
 {
 	border: 0.5px solid lightgrey;
 }
-.material-icons
-{
-	color: solid black;
-}
-.fa {
-  padding: 20px;
-  font-size: 3vw;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.fa-instagram {
-  background: red;
-  color: white;
-}
 .hussain
 {
   color:solid black;  
@@ -161,9 +128,131 @@ article {
 }
 p,h1,h2,h3,h4,h5,h6,pre
 {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;   
+  -khtml-user-select: none;    
+  -moz-user-select: none;      
   -ms-user-select: none;
+}
+
+
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+ul {
+    
+    
+    
+    background-color: solid lightgrey;
+    margin-left: auto;
+    padding: 0;
+    display: flex;
+    max-width: 100%;
+}
+ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 0.1610305958132045vw;
+    background-color: solid lightgrey;
+}
+ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.322061191626409vw;
+    width: 3.2206119162640903vw;
+    height: 0.644122383252818vw;
+    background: solid lightgrey;
+    border-radius: 50%;
+    transition: 0.5s;
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0.8);
+}
+ul li:hover::before {
+    transition-delay: 0.2s;
+    opacity: 0.2;
+    transform: scale(1);
+}
+ul li a {
+    width: 4vw;
+    height: 4vw;
+    display: block;
+    transition: 0.5s;
+    background-color: solid lightgrey;
+}
+ul li:hover a {
+    transform: translateY(-0.8051529790660226vw);
+}
+ul li a span  {
+    width: 100%;
+    height: 100%;
+    background-color: solid lightgrey;
+}
+ul li a span::before {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 3.2206119162640903vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: solid lightgrey;
+    color: #262626;
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+ul li:hover a span::before {
+    transform: rotateX(90deg) translateY(-50%);
+}
+ul li a span::after {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 3.2206119162640903vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    color: #262626; 
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transform: rotateX(90deg) translateY(50%);
+}
+ul li:hover a span::after {
+    transform: rotateX(0deg) translateY(0);
+}
+ul li:nth-child(1) a span::before,
+ul li:nth-child(1) a span::after {
+    content: '\f09a';
+}
+ul li:nth-child(2) a span::before,
+ul li:nth-child(2) a span::after {
+    content: '\f099';
+}
+ul li:nth-child(3) a span::before,
+ul li:nth-child(3) a span::after {
+    content: '\f16d';
+}
+ul li:nth-child(4) a span::before,
+ul li:nth-child(4) a span::after {
+    content: '\f0e1';
+}
+ul li:nth-child(1) a span::after {
+    background: #3b5999;
+    color: #fff;
+}
+ul li:nth-child(2) a span::after {
+    background: #55acce;
+    color: #fff;
+}
+ul li:nth-child(3) a span::after {
+    background: #dd4b39;
+    color: #fff;
+}
+ul li:nth-child(4) a span::after {
+    background: #0077b5;
+    color: #fff;
 }
