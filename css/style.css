@@ -143,7 +143,7 @@ ul {
     
     
     
-    background-color: solid lightgrey;
+    
     margin-left: auto;
     padding: 0;
     display: flex;
@@ -153,7 +153,7 @@ ul li {
     position: relative;
     list-style: none;
     margin: 0 0.1610305958132045vw;
-    background-color: solid lightgrey;
+    
 }
 ul li::before {
     content: '';
@@ -162,7 +162,7 @@ ul li::before {
     bottom: -0.322061191626409vw;
     width: 3.2206119162640903vw;
     height: 0.644122383252818vw;
-    background: solid lightgrey;
+    
     border-radius: 50%;
     transition: 0.5s;
     opacity: 0;
@@ -175,11 +175,11 @@ ul li:hover::before {
     transform: scale(1);
 }
 ul li a {
-    width: 4vw;
-    height: 4vw;
-    display: block;
+    width: 3.8vw;
+    height: 3.8vw;
+    display: inline-block;
     transition: 0.5s;
-    background-color: solid lightgrey;
+    
 }
 ul li:hover a {
     transform: translateY(-0.8051529790660226vw);
@@ -187,7 +187,7 @@ ul li:hover a {
 ul li a span  {
     width: 100%;
     height: 100%;
-    background-color: solid lightgrey;
+    
 }
 ul li a span::before {
     font-family: fontAwesome;
@@ -198,7 +198,7 @@ ul li a span::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: solid lightgrey;
+    
     color: #262626;
     transform-origin: top;
     transition: transform 0.5s;
@@ -240,6 +240,10 @@ ul li:nth-child(4) a span::before,
 ul li:nth-child(4) a span::after {
     content: '\f0e1';
 }
+ul li:nth-child(5) a span::before,
+ul li:nth-child(5) a span::after {
+    content: '\f09b';
+}
 ul li:nth-child(1) a span::after {
     background: #3b5999;
     color: #fff;
@@ -254,5 +258,9 @@ ul li:nth-child(3) a span::after {
 }
 ul li:nth-child(4) a span::after {
     background: #0077b5;
+    color: #fff;
+}
+ul li:nth-child(5) a span::after {
+    background: #211F1F;
     color: #fff;
 }
