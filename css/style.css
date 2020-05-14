@@ -50,6 +50,7 @@ header
 	padding-bottom: 10px;
 	padding-top: 10px;
   max-width: 25%;
+  pointer-events: none;
   
 }
 .myname
@@ -157,4 +158,12 @@ article {
   font-family: 'Raleway'  
   font-variant:
   font-style: normal;
+}
+p,h1,h2,h3,h4,h5,h6,pre
+{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;
 }
