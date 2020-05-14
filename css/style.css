@@ -70,7 +70,7 @@ header
 }
 .sectionside
 {
-	font-size: 2vw;
+	font-size: 1.6vw;
 	font-family: 'Raleway'
 	color:solid black;
 }
@@ -136,7 +136,6 @@ p,h1,h2,h3,h4,h5,h6,pre
 }
 
 
-
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 ul {
@@ -177,7 +176,7 @@ ul li:hover::before {
 ul li a {
     width: 3.8vw;
     height: 3.8vw;
-    display: inline-block;
+    display: block;
     transition: 0.5s;
     
 }
