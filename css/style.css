@@ -1,0 +1,152 @@
+body
+{
+	background-color: #e6e6e6;
+}
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+    nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+    nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a
+{
+  font-style: italic;
+  text-decoration: none;  
+}
+a:hover
+{
+  font-style: normal;
+}
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 5px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+header
+{
+	overflow: hidden;
+	background-color: #eaeaea
+	
+}
+.myimage
+{
+	
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+  max-width: 25%;
+  
+}
+.myname
+{
+	margin-left: auto;
+	padding-bottom: 0px;
+	font-size: 40px;
+	color: #2a7dbb;
+	font-family: 'Raleway'
+}
+.myplace
+{
+	font-family: 'Verdana';
+	margin-left: auto;
+	font-size: 25px;
+	color: grey;
+}
+.sectionside
+{
+	font-size: 20px;
+	font-family: 'Raleway'
+	color:solid black;
+}
+.sectiondetails
+{
+	color:grey;	
+	font-size: 15px;
+	font-family: 'Raleway'	
+}
+.sectionsidedetails
+{
+	color:solid black;	
+	font-size: 15px;
+	font-family: 'Raleway'	
+	font-weight: bold;
+	font-variant:
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid lightgrey;
+}
+section:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+nav 
+{
+  float: left;
+  width: 33%;
+  border-right: 0.5px solid black;
+  
+  padding: 20px;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 67%;
+}
+.newline
+{
+	border: 0.5px solid lightgrey;
+}
+.material-icons
+{
+	color: solid black;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: red;
+  color: white;
+}
